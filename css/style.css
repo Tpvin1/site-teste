@@ -1,0 +1,145 @@
+/* devinições basicas */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f5f5f5;
+}
+/* header */
+header{
+    background: linear-gradient(to right, #286e8f , #036dc4);
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* comando favorito do luis */
+    box-shadow: 0 2px 5px #000;
+}
+.logo img{
+    height: 60px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* configurções gerais da lista */
+}
+nav li{
+    margin-left: 20px;
+}
+nav a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav a:hover{
+    color: #9e9e9e;
+}
+/* estilo do banner */
+.banner-container{
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card-banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 960px;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px #000;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card p{
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+/* sobre */
+.about-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #000;
+    border-radius: 5px;
+}
+.about-container h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.about-container p{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+footer{
+    background: linear-gradient(to right, #286e8f , #036dc4);
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.services-container{
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #000;
+    border-radius: 5px;
+}
+.services-container h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.services-container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.services-container li{
+    margin-bottom: 20px;
+}
+.services-container h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.services-container p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+.services-container img{
+    width: 100%;
+}
